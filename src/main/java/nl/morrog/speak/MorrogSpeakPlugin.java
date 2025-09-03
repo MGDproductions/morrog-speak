@@ -78,7 +78,7 @@ public class MorrogSpeakPlugin extends Plugin
 
 				lastAudioStartTime = client.getTickCount();
 			} catch (MalformedURLException e) {
-				System.out.println("MorrogSpeak could not play audio file");
+				log.error("MorrogSpeak could not play audio file");
 			}
 		}
 	}
